@@ -15,8 +15,8 @@
 	#include <abstractions/user-download>
 
 	capability sys_ptrace,
-	
-	deny / r,	
+
+	deny / r,
 	deny /etc/fstab r,
 	deny /etc/host.conf r,
 	deny /etc/hosts r,
@@ -32,7 +32,7 @@
 	deny @{HOME}/Documents/** r,
 
 	deny @{PROC}** r,
- 
+
 	/etc/gai.conf r,
 
 	@{HOME}/.cache/dconf/user rw,
