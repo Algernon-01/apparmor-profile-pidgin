@@ -6,7 +6,7 @@ Source: apparmor-profile-pidgin
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
-Build-Depends: debhelper (>= 8), dh-apparmor, faketime, rsync, git
+Build-Depends: debhelper (>= 8), dh-apparmor, faketime, git
 Homepage: https://www.whonix.org/wiki/AppArmor
 Vcs-Browser: https://github.com/Whonix/apparmor-profile-pidgin
 Vcs-Git: https://github.com/Whonix/apparmor-profile-pidgin.git
@@ -17,4 +17,4 @@ Architecture: all
 Depends: ${misc:Depends}, apparmor
 Description: AppArmor profile for Pidgin with OTR.
  An AppArmor profile to confine Pidgin with OTR. This profile
- is developed by the Whonix team. Pidgin is developed by ??
+ is developed by the Whonix team. Pidgin is developed by pidgin.im.
