@@ -58,6 +58,7 @@
 	/bin/rm rix,
 	/{dev,run}/shm/ r,
 	/{dev,run}/shm/* rw,
+	/run/utmp r,
 
 	/etc/ r,
 	/etc/pulse/client.conf r,
@@ -65,6 +66,7 @@
 	/etc/ssl/certs/** r,
 	/etc/ssl/certs/ssl-cert-snakeoil.pem r,
 	/etc/purple/prefs.xml r,
+	/etc/wildmidi/wildmidi.cfg r,
 
 	owner /tmp/orbit-*/* w,
 	owner /tmp/pulse-*/* w,
@@ -101,4 +103,6 @@
 	/usr/share/hunspell/ r,
 	/usr/share/hunspell/** r,
 	/usr/share/fontconfig/conf.avail/* r,
+	/usr/share/poppler/cMap/ r,
+	/usr/share/poppler/cMap/** r,
 }
