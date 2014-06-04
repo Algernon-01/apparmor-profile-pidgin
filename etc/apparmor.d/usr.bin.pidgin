@@ -63,7 +63,7 @@
 	/bin/rm rix,
 	/{dev,run}/shm/ r,
 	/{dev,run}/shm/* rw,
-	/run/utmp r,
+	/run/utmp rwk,
 
 	/etc/ r,
 	/etc/pulse/client.conf r,
