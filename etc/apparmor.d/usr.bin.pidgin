@@ -1,4 +1,4 @@
-# Last Modified: Wed May 21 22:06:04 UTC 2014
+# Last Modified: Wed Jun  4 08:05:57 UTC 2014
 #include <tunables/global>
 
 /usr/bin/pidgin {
@@ -29,6 +29,9 @@
 	deny @{HOME}/.cshrc rw,
 	deny @{HOME}/.profile rw,
 	deny @{HOME}/.zshrc rw,
+	deny /tmp/orcexec* w,
+	deny /{,var/}run/user/*/orcexec* w,
+	deny @{HOME}/orcexec* w,	
 	deny @{HOME}/Documents/** r,
 
 	deny @{PROC}** r,
@@ -68,8 +71,8 @@
 	/etc/purple/prefs.xml r,
 	/etc/wildmidi/wildmidi.cfg r,
 
-	owner /tmp/orbit-*/* w,
-	owner /tmp/pulse-*/* w,
+	/tmp/orbit-*/* w,
+	/tmp/pulse-*/* w,
 
 	/usr/bin/pidgin r,
 	/usr/bin/xdg-open rmix,
