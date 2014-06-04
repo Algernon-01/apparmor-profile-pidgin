@@ -29,10 +29,11 @@
 	deny @{HOME}/.cshrc rw,
 	deny @{HOME}/.profile rw,
 	deny @{HOME}/.zshrc rw,
-	deny /tmp/orcexec* w,
-	deny /{,var/}run/user/*/orcexec* w,
-	deny @{HOME}/orcexec* w,	
 	deny @{HOME}/Documents/** r,
+
+	deny @{HOME}/orcexec* rw,	
+	deny /tmp/orcexec* rw,
+	deny /{,var/}run/user/*/orcexec* rw,
 
 	deny @{PROC}** r,
 
