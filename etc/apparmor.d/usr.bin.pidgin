@@ -53,6 +53,7 @@
 	@{HOME}/.purple/** rwk,
 	@{HOME}/.kde/share/config/* r,
 	@{HOME}/.config/oxygen-gtk/argb-apps.conf rwk,
+	@{HOME}/tor-browser_*/Browser/firefox Px,
 
 	/bin/grep rix,
 	/bin/dash rix,
