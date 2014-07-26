@@ -18,3 +18,5 @@ Depends: ${misc:Depends}, apparmor
 Description: AppArmor profile for Pidgin with OTR
  An AppArmor profile to confine Pidgin with OTR. This profile
  is developed by the Whonix team. Pidgin is developed by pidgin.im.
+ .
+ For better security.
