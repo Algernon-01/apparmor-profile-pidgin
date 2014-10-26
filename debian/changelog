@@ -1,3 +1,9 @@
+apparmor-profile-pidgin (3:0.6-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 26 Oct 2014 00:56:07 +0000
+
 apparmor-profile-pidgin (3:0.5-1) unstable; urgency=low
 
   * New upstream version.
