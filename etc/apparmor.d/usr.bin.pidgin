@@ -12,25 +12,25 @@
   #include <abstractions/gnome>
   #include <abstractions/kde>
   #include <abstractions/ibus>
-  
+
   ##include <abstractions/launchpad-integration>
-  
+
   #include <abstractions/nameservice>
   #include <abstractions/private-files-strict>
   #include <abstractions/ssl_certs>
 
   # Removing ubuntu abstractions
   ##include <abstractions/ubuntu-browsers>
-  
-  # This one prevents the profile from loading: 
+
+  # This one prevents the profile from loading:
   # "profile has merged rule with conflicting x modifiers"
   # "ERROR processing regexs for profile sanitized_helper, failed to load"
   # Most likely due to AppArmor version in wheezy (< 2.9)
   ##include <abstractions/ubuntu-helpers>
-  
+
   #include <abstractions/user-download>
 
-  capability sys_ptrace,     
+  capability sys_ptrace,
   deny @{HOME}/.local/share/applications/wine/ r,
 
   owner @{HOME}/.gstreamer*/ rw,
@@ -44,10 +44,10 @@
   owner /{,var/}run/user/[0-9]*/dconf/user rwk,
 
   # Added for KDE in Whonix
-  @{HOME}/.kde/share/config/* r,      
+  @{HOME}/.kde/share/config/* r,
   /home/user/.config/oxygen-gtk/* rwk,
   /usr/bin/kde4-config rix,
-  
+
   /bin/dash rix,
   /bin/which rix,
 
@@ -78,7 +78,7 @@
   owner @{PROC}/[0-9]*/fd/ r,
   # for Virtualbox
   owner @{PROC}/[0-9]*/cmdline r,
-  
+
   # For sound notifications
   owner /tmp/orcexec.* mr,
   # ... if /tmp is mounted noexec
