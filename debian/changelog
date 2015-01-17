@@ -2,7 +2,7 @@ apparmor-profile-pidgin (3:0.7-1) unstable; urgency=low
 
   * New upstream version.
 
- -- Patrick Schleizer <user@host.localdomain>  Tue, 06 Jan 2015 14:16:41 +0000
+ -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 06 Jan 2015 14:16:41 +0000
 
 apparmor-profile-pidgin (3:0.6-1) unstable; urgency=low
 
