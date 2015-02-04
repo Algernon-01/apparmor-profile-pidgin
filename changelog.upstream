@@ -1,0 +1,286 @@
+commit 9f0666e1a4513a6c2b13fb17413718764a2a30e0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:40:31 2015 +0000
+
+    updated makefile generic to version 1.3
+
+commit 8c667589960333aac6c5021888f5fceb47cad97c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 3 23:58:37 2015 +0000
+
+    Added creation of upstream changelog to debian/rules
+
+commit b8df51a43a349058b974c1f96faaef93528a7db6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jan 17 22:55:00 2015 +0000
+
+    fixed changelog
+
+commit ff4d4784a998e76455d881032f38fe911721ba98
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 7 19:33:36 2015 +0000
+
+    bumped compat from 8 to 9
+
+commit d10332bb33cee7321c84c89c9feba09c244169db
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jan 6 14:16:44 2015 +0000
+
+    bumped version number
+
+commit b304bef9f570eb7b7e539e42f4ca893d5acfd366
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jan 6 14:16:33 2015 +0000
+
+    minor
+
+commit 0b33fe34ef453f620e932d35eab1b2cb6937df6b
+Merge: 2d0c8e5 b56f71a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 5 21:52:58 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit b56f71a3f4a9bc84d1b6a265d0faf5d0a1a981e6
+Author: troubadoour <trobador@riseup.net>
+Date:   Mon Jan 5 21:03:47 2015 +0000
+
+    new profile forked from ubuntu
+
+commit 2d0c8e5651e942a3647a32fdcaca28c76ba28ef3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 5 19:01:09 2014 +0000
+
+    updated generic makefile
+
+commit c6fbbe21045fcf4cba16e6703e5c6f63877b88d1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 28 22:35:17 2014 +0000
+
+    makefile: refactoring, avoid using IFS
+
+commit c206131fe208ebc601e7d2b0582aa8d4611dcf75
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Oct 26 00:56:15 2014 +0000
+
+    bumped version number
+
+commit 02cda3703211240ecdb1087387cdded1583ab1f9
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Oct 25 21:45:24 2014 +0000
+
+    Removed extra '*' in /usr/lib/libvisual-*
+    Was not used before Whonix 9.3
+
+commit a265225512c28ee6ac04fb5b05c2a6ed1d2d832c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 25 01:58:50 2014 +0000
+
+    makefile:
+    - make debdist; make undebdist
+    - cleanup
+    - refactoring
+
+commit 00c65a259b3ea112ca8c06d76b359766697706c3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 23 22:43:01 2014 +0000
+
+    makefile:
+    - new target "make undist", which deletes the upstream tarball
+    - $DISTDIR variable for make (un)dist, which defaults to ".." and can be used to create upstream tarballs in arbitrary locations
+    - refactoring, all function names and global variables now start with "make_" to make the script `source`ing friendly
+    - made `source`able
+
+commit 393985c606fe69ba48f1063effcffcef4c3bb14c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 13 12:36:51 2014 +0000
+
+    readme
+
+commit d38e98a1300d2881ea8e752fc73261cf0d0768dd
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 19 18:52:35 2014 +0000
+
+    makefile: added new feature "make deb-chl-bumpup" - Bump upstream version number in debian/changelog.
+
+commit d1db1a4ce492b826ab0add4067bf86ccca652301
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:54:22 2014 +0000
+
+    Updated debian/changelog.
+
+commit d62f0072566b0a016da54c9bbccaceca03403952
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:47:25 2014 +0000
+
+    Fixed changelog date.
+
+commit 948c0915ae4a3c7ad5d556a7be3f3c8da3a6041f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 18:03:24 2014 +0000
+
+    bump version number
+
+commit bc5822a66fa4554f943c39214f0b183f7aa2ce3c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 14 13:35:14 2014 +0000
+
+    Implemented make deb-icup: Combination of make deb-pkg, make deb-pkg-install and make deb-pkg-cleanup.
+
+commit 9f94df8694a6af76de42950bef37f710b9e4d0f5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jul 28 23:25:41 2014 +0000
+
+    readme
+
+commit 48d31ea1fe84e283bc1f94d50bade2729953d801
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 27 12:42:24 2014 +0000
+
+    packaging
+
+commit 84b89b42a23f7dd464223d6cd3b20cebdda290b4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 27 04:01:09 2014 +0000
+
+    packaging
+
+commit 2692b2d29f1f26a086129f29795b491ac5e2f045
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 26 15:26:34 2014 +0000
+
+    packaging
+
+commit 666875bb8e2302e6a0c9cc3cc2941d2cd6bdcf27
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 26 15:16:02 2014 +0000
+
+    packaging: removed build dependency on git, since the .git folder won't be included in the upstream tarball.
+
+commit e8898290a95826ecd51d62ba28d28ccd4bca0a8b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 26 13:44:51 2014 +0000
+
+    fix lintian warning
+
+commit c9b8b4eb85676146d30a3956099c1f7cbfcdf5b9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 17:29:33 2014 +0000
+
+    packaging
+
+commit efcfa2e868a14c924c5cc23706be329669fe5a46
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 17:10:59 2014 +0000
+
+    packaging
+
+commit f3df0d1e6c47966dc4e3e54465367fb76cda5199
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 15:34:15 2014 +0000
+
+    packaging
+
+commit 4db11cf418d75739c2a5702fc01c6c44278663ce
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 5 08:09:42 2014 +0000
+
+    Bumped debian revision number to avoid lintian warning "new-package-should-close-itp-bug" so we can use lintian --fail-on-warnings as sanity test.
+
+commit 9d1ea38b79283dca3457abde2d754516e325954c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 24 15:45:10 2014 +0000
+
+    added debian epoch; added dotglob
+
+commit 24177772dba85b74b38f16389cff46b6de0a7ff4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jun 12 12:28:41 2014 +0000
+
+    packaging
+
+commit 9460e0b08b9d8084495933ada9ed64066e0aa29e
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Jun 4 18:37:11 2014 +0000
+
+    Fixed denied message (pigin from terminal)
+
+commit 5d447f01aeb899b49b7fa1a016f60ae14bbc3fec
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Jun 4 15:41:27 2014 +0000
+
+    Open link in Tor browser
+
+commit 896bda533e4979a2536209586ef2a5f609a73b30
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Jun 4 15:36:39 2014 +0000
+
+    Open link in Tor browser
+
+commit 34ce7ff7be01b9e890f0deaac04209798dd034b1
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Jun 4 08:22:11 2014 +0000
+
+    added orcexec
+
+commit dae348af643e62a9256e76db51599aee6a8a530e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 3 23:26:55 2014 +0000
+
+    fixed a few denied messages
+
+commit 1209891e8917eb491d62a2932844d5b1aa1dd1a5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 3 18:27:24 2014 +0000
+
+    readme
+
+commit 52cc449fdc42453d7122783e459cf47763c18112
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 1 15:38:30 2014 +0000
+
+    readme
+
+commit 4dc9efa86ea2171d091f9ea2587506f73cc12e58
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 31 16:30:59 2014 +0000
+
+    # On branch master
+    nothing to commit (working directory clean)
+
+commit 792257d498ecf18b583b224d535c38d7bb831f27
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 31 14:16:48 2014 +0000
+
+    # On branch master
+    nothing to commit (working directory clean)
+
+commit 5500cd4d18e1f4e1f8c518c96d14d79c569d9d4e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 22 23:26:14 2014 +0000
+
+    packaging
+
+commit 4d4dc0addb3d45d566ffccac60297c62fc9e64a1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 22 23:13:50 2014 +0000
+
+    cleanup
+
+commit 2eab00faeff0399ba76ed8baee65e81167796214
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu May 22 19:09:50 2014 +0000
+
+    Removed 1(one) tabulator, 1(one) character long.
+
+commit d79ecb17146702aa57d088458152c7082cfc3232
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu May 22 19:05:22 2014 +0000
+
+    Removed extra dot in package description
+
+commit 71478e85c787fa938f70ebf85e14ae306e2b20a5
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed May 21 22:24:02 2014 +0000
+
+    First release
