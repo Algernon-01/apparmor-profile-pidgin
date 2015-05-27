@@ -1,3 +1,22 @@
+commit 84852c1f6f3db9e040380d3fd89dc671bb304da6
+Merge: a816bfc 7dde08f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed May 27 21:58:50 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 7dde08febaa2fe8310c2eb3e377a248d6783b54c
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed May 27 20:28:17 2015 +0000
+
+    revert to Debian profile plus one addition (/usr/share/aspell)
+
+commit a816bfc1e2c1eb7f5e5d55d7123c00140a0f0154
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 23 01:21:37 2015 +0000
+
+    bumped changelog version
+
 commit aaa16a16de160cc8ef859d943d150ab1df080d68
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat May 23 01:20:05 2015 +0000
