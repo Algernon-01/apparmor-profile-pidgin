@@ -1,3 +1,15 @@
+commit 576568518d148ac6d1acd600819fb24be1846363
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Aug 24 16:24:08 2015 +0000
+
+    jessie specific fixes
+
+commit 29e789505db28b02c1282d694f2aa390f3be8ecd
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jun 3 14:59:26 2015 +0000
+
+    bumped changelog version
+
 commit 22e200c7b031051edbd006644bff50d59e7cb971
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed May 27 21:59:17 2015 +0000
