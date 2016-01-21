@@ -15,7 +15,14 @@ Standards-Version: 3.9.6
 Package: apparmor-profile-pidgin
 Architecture: all
 Depends: ${misc:Depends}, apparmor
-Description: AppArmor profile for Pidgin with OTR
+Description: Metapackage for maintenance
+ At the moment this package is doing nothing.
+ Keeping this empty package for further use.
+ .
+ https://phabricator.whonix.org/T314
+ .
+ Old package description:
+ .
  An AppArmor profile to confine Pidgin with OTR. This profile
  is developed by the Whonix team. Pidgin is developed by pidgin.im.
  .
