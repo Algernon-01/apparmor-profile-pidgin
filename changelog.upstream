@@ -1,3 +1,17 @@
+commit af69e1447de8120e416c1d8af5dfa9944041c23d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 21 20:48:22 2016 +0000
+
+    solve apparmor-profile-pidgin vs apparmor-profiles conflict
+    
+    https://phabricator.whonix.org/T314
+
+commit ffefa9d30adbcbd050c5709478c52bf264fcc0ac
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 25 14:07:51 2015 +0000
+
+    bumped changelog version
+
 commit 7a3e65bfbaacca46f1ba436317b81850703c318b
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Aug 24 17:47:16 2015 +0000
